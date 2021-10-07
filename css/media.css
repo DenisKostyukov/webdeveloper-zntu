@@ -1,0 +1,162 @@
+@media (max-width:768px){
+  html{
+    font-size: 8px;
+  }
+  .visible-lg{
+    display: none;
+  }
+  .m-menu-link{
+    display: block;
+  }
+  .service-card{
+    width: 45%;
+  }
+  .works>img{
+    width: 45%;
+  }
+  .main-text{
+    width: 90%;
+  }
+  .social>ul>li{
+    width: 50px;
+    height: 35px;
+  }
+  .method-com>p{
+    width: 70%;
+  }
+}
+@media (max-width:600px) {
+  html {
+    font-size: 7px;
+  }
+  
+  .button-panel {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+    flex-direction: column;
+    align-items: center;
+  }
+  .button-panel button{
+    margin-bottom: 10px;
+  }
+  .service-cards {
+    width: 75%;
+
+  }
+  button{
+    margin: 0;
+  }
+  .plan>button{
+    padding: 15px 15px 15px 15px;
+  }
+  .method-com>p {
+    width: 100%;
+  }
+}
+@media (max-width:480px){
+  html {
+    font-size: 8px;
+  }
+  .about-cards{
+    flex-direction: column;
+  }
+  .topic-text{
+    padding:30px 0 30px 0;
+  }
+  .topic-text>p {
+    width: 85%;
+    padding:20px 0 20px 0;
+  }
+.works {
+  display: none;
+}
+.service-card {
+  margin: 0;
+}
+.works>img {
+  display: none;
+}
+.works-slider {
+  margin: 0 auto;
+  width: 70%;
+  display: block;
+}
+.plans {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.plan {
+  width: 90%;
+  margin-bottom: 20px;
+}
+.bblog {
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+.bblog>img {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.bblog-right>img {
+  width: 85%;
+  margin: 0 auto;
+}
+.blog-text{
+  margin: 0 auto;
+}
+.blog-text>h2 {
+  text-align: center;
+}
+.blog-text>p {
+  margin: 10px auto;
+ text-align: center;
+}
+.date{
+  display: flex;
+  justify-content: center;
+}
+.bblog-right {
+  flex-direction: column;
+}
+.bblog-right>.blog-text {
+  order: 0;
+}
+.communication{
+  width: 95%;
+}
+.image>img {
+  width: 35px;
+  height: 30px;
+}
+.image {
+   width: 50px;
+   height: 50px;
+}
+.method-com>p {
+  font-size: 1.1rem;
+}
+.member {
+  width: 90%;
+}
+.team {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+}
+@media (max-width:320px) {
+  .method-com>p {
+    font-size: 1rem;
+  }
+  .user-data{
+    flex-direction: column;
+  }
+  .user-data>input{
+    margin: 10px auto;
+  }
+}
