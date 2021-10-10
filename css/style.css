@@ -184,9 +184,11 @@ body{
   text-align: center;
   justify-content: center;
 }
-.card>h3{
+
+.card-title{
   font-weight: 600;
   font-size: 2rem;
+  margin-bottom: 0;
 }
 .card>p{
   width: 80%;
@@ -209,16 +211,21 @@ body{
   width: 85%;
 
 }
+.slick-track{
+  display: flex;
+  align-items: stretch;
+}
 .service-card{
-  transition: .6;
+  transition: 0.6s;
   outline: none;
+  height: auto;
   margin: 0 5px;
   padding-bottom: 50px;
   padding-top: 50px;
   background-color:white;
   transition:ease-in-out .4s;
 }
-.service-card>h4{
+.service-card-title{
   text-align: center;
   margin-bottom: 0;
   font-size: 2rem;
@@ -248,7 +255,7 @@ body{
   background-color: #00897b;
   cursor: pointer;
 }
-.service-card:hover h4 {
+.service-card:hover .service-card-title{
   color: #ffffff;
 }
 .service-card:hover p {
@@ -481,61 +488,7 @@ button:hover {
 .social>ul>li:hover a{
   color: #ffffff;
 }
-.blog{
-  background-color: #e4fdf9;
-  padding-top:40px;
-  padding-bottom:40px;
-  display: flex;
-  justify-content: center;
-  align-items:center;
-  flex-direction: column;
-  background-color: #e4fdf9;
-}
-.bblog{
-  width: 90%;
-  display: flex;
-  justify-content:start;
-}
-.bblog>img{
-  width: 50%;
-}
-.bblog-right>img {
-  width: 50%;
-}
-.blog-text{
-  margin: 20px  0 0 20px;
-}
-.date>span>.far{
-  margin-right: 5px;
-}
-.date>span{
-  margin-right: 10px;
-}
-.blog-text>h2 {
-  font-size: 2.5rem;
-  font-weight: 600;
-}
-.date>span{
-  font-size: 1.7rem;
-  font-weight: 600;
-}
-.blog-text>p {
-  width: 85%;
-  font-size: 1.5rem;
-}
-.bblog-right {
-  width: 85%;
-  display: flex;
-  justify-content: start;
-}
-.bblog-right>.blog-text{
-  order: -1;
-  margin: 20px 0 0 0;
-}
-.blog>button{
-  background-color: #00897b;
-  margin: 5rem 0 3rem 0;
-}
+
 .contact{
   width: 100%;
   background: url(../img/block-contact.jpg) no-repeat center;

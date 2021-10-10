@@ -27,6 +27,7 @@ $('.service-cards').slick({
     slidesToShow:3,
     centerMode: true,
     centerPadding: '30px',
+    adaptiveHeight: true,
     responsive: [
         {
             breakpoint: 769,
